@@ -4,6 +4,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import blogRoutes from "./routes/blogRoutes.js";
 import cors from "cors";
+import path from "path";
 import { fileURLToPath } from "url";
 
 const app = express();
